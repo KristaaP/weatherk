@@ -1,4 +1,4 @@
-import weatherk from "./weatherk";
+import Weatherk from "./Weatherk";
 import "./App.css";
 import React from "react";
 
@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <h1>Hello from React!</h1>
-        <weatherk />
+        <Weatherk />
       </header>
     </div>
   );
